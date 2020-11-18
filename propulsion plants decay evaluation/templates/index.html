@@ -1,1 +1,40 @@
+<html >
+<head>-
+  <title>Predict GT Compressor decay state coefficient</title>
+ </head>
 
+<body>
+<div>
+       <h1>Predict Compressor Coefficient</h1>
+  
+    <form action="{{ url_for('getprediction')}}"method="post">
+       <input type="text" name="Lever position (lp) [ ] " placeholder="Lever position (lp) [ ]" required="required" />
+       <input type="text" name="Ship speed (v) [knots])" placeholder="Ship speed (v) [knots]" required="required" />
+       <input type="text" name="Gas Turbine shaft torque (GTT) [kN m]" placeholder="Gas Turbine shaft torque (GTT) [kN m]" required="required" />
+       <input type="text" name="Gas Turbine rate of revolutions (GTn) [rpm]" placeholder="Gas Turbine rate of revolutions (GTn) [rpm]" required="required" />
+       <input type="text" name="Gas Generator rate of revolutions (GGn) [rpm]" placeholder="Gas Generator rate of revolutions (GGn) [rpm]" required="required" />
+       <input type="text" name="Port Propeller Torque (Tp) [kN]" placeholder="Port Propeller Torque (Tp) [kN]" required="required" />
+       <input type="text" name="HP Turbine exit temperature (T48) [C]" placeholder="HP Turbine exit temperature (T48) [C]" required="required" />
+       <input type="text" name="GT Compressor outlet air temperature (T2) [C]" placeholder="GT Compressor outlet air temperature (T2) [C]" required="required" />
+      <input type="text" name="HP Turbine exit pressure (P48) [bar]" placeholder="HP Turbine exit pressure (P48) [bar]" required="required" />
+      <input type="text" name="GT Compressor outlet air pressure (P2) [bar]" placeholder="GT Compressor outlet air pressure (P2) [bar]" required="required" />
+      <input type="text" name="Gas Turbine exhaust gas pressure (Pexh) [bar]" placeholder="Gas Turbine exhaust gas pressure (Pexh) [bar]" required="required" />
+      <input type="text" name="Turbine Injecton Control (TIC) [%]" placeholder="Turbine Injecton Control (TIC) [%]" required="required" />
+      <input type="text" name="Fuel flow (mf) [kg/s]" placeholder="Fuel flow (mf) [kg/s]" required="required" />
+      
+
+      
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">getprediction</button>
+    </form>
+
+   <br>
+   <br>
+   {{ output }}
+
+ </div>
+
+
+</body>
+</html>
