@@ -3,7 +3,7 @@
 2. propulsion plants decay evaluation
 
 # Model Deployment - Flask
-propulsion plants decay evaluation
+propulsion plants decay evaluation (‘GT Compressor decay state coefficient Prediction’)
 
 pickel file is in master branch
 
