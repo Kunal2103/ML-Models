@@ -11,6 +11,7 @@ pickel file is in master branch
 1. pandas
 2. numpy
 3. flask
+4. pickle
 
 ![Untitled - model](https://user-images.githubusercontent.com/61379632/99529947-a7c68200-29c6-11eb-8b18-1a082295f2c0.png)
 
