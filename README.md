@@ -5,7 +5,7 @@
 # Model Deployment - Flask
 propulsion plants decay evaluation  (‘GT Compressor decay state coefficient Prediction’)
 
-pickel file is in master branch
+pickel file(model) is in master branch
 
 ## tools
 1. pandas
