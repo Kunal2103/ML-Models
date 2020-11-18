@@ -6,3 +6,9 @@
 propulsion plants decay evaluation
 
 pickel file is in master branch
+
+## tools
+
+1. pandas
+2.numpy
+3.flask
